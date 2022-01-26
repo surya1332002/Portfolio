@@ -27,7 +27,7 @@
 
     @include mobile {
       flex-direction: column;
-      height: 100%;
+      height: 90%;
     }
 
     .card {
@@ -43,7 +43,8 @@
 
       @include mobile {
         height: 180px;
-        margin: 10px 0;
+        width: 225px;
+        margin: 20px 0;
       }
 
       &.featured {
@@ -52,7 +53,7 @@
         margin: 0 30px;
 
         @include mobile {
-          width: 250px;
+          width: 225px;
           height: 180px;
           margin: 1px;
         }
