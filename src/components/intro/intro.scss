@@ -12,36 +12,23 @@
   .left {
     flex: 0.5;
     overflow: hidden;
-    position: relative;
-    right: 20px;
 
     .imgContainer {
-      width: 600px;
-      height: 600px;
+      width: 700px;
+      height: 700px;
       background-color: crimson;
       border-radius: 50%;
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       justify-content: center;
       float: right;
-      margin-right: -0px;
-      margin-top: 50px;
-      position: relative;
-      overflow: hidden;
 
       @include mobile {
         align-items: flex-start;
       }
 
       img {
-        height: 550px;
-        // width: 600px;
-        // display: block;
-        // position: relative;
-        // top: 50%;
-        // left: 50%;
-        // transform: translate(-50%, -50%);
-        margin-bottom: -50px;
+        height: 90%;
 
         @include mobile {
           height: 50%;
@@ -76,9 +63,6 @@
       }
       h2 {
         font-size: 35px;
-        span {
-          color: crimson;
-        }
       }
       h3 {
         font-size: 30px;
