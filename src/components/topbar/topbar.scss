@@ -25,7 +25,7 @@
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
-        color: rgb(214, 13, 53);
+        color: black;
       }
 
       .itemContainer {
@@ -70,7 +70,7 @@
 
   &.active {
     background-color: $mainColor;
-    color: white;
+    color: black;
 
     .hamburger {
       span {
