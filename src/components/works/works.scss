@@ -118,16 +118,54 @@
           }
         }
         .right {
-          flex: 8;
-          height: 100%;
+          flex: 7;
+          height: 80%;
           display: flex;
           align-items: center;
           justify-content: center;
-          overflow: hidden;
 
-          img {
-            width: 400px;
-            transform: rotate(-10deg);
+          .rightContainer {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow: hidden;
+
+            @include mobile {
+              width: 70%;
+              height: 100px;
+              margin: 1px 0;
+            }
+
+            .imgContainer {
+              // width: 40px;
+              // height: 40px;
+              // border-radius: 50%;
+              // background-color: rgb(245, 179, 155);
+              // display: flex;
+              // align-items: center;
+              // justify-content: center;
+
+              img {
+                width: 420px;
+                object-fit: cover;
+              }
+              // .right {
+              //   .rightContainer {
+              //     .imgContainer2 {
+              //       flex: 8;
+              //       height: 90%;
+              //       display: flex;
+              //       align-items: center;
+              //       justify-content: center;
+              //       overflow: hidden;
+
+              //       img {
+              //         width: 400px;
+              //         // transform: rotate(-10deg);
+              //       }
+            }
           }
         }
       }
